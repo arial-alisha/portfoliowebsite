@@ -1,0 +1,190 @@
+@-moz-viewport {width:device-width; scale: 1; }
+@-ms-viewport {width:device-width; scale: 1; }
+@-o-viewport {width:device-width; scale: 1; }
+@-webkit-viewport {width:device-width; scale: 1; }
+@viewport {width:device-width; scale: 1; }
+
+html {
+
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Program", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #682666;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: .5em 2%;
+  text-decoration: none;
+}
+
+header, .banner {
+  background-color: #682666;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+ }
+
+.banner {
+  width: 100%;
+}
+
+.pic {
+  width: 80%;
+  margin-left: 10%;
+}
+
+h2 {
+  margin: 0;
+  color: #682666;
+}
+
+.square {
+  width: 100%;
+  padding: 0 0 1em 1em;
+}
+
+
+.sqrs {
+  padding: 1em 1em 0 0 ;
+}
+
+.email {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.ft {
+  color: white;
+}
+
+footer {
+  background-image: url("../assets/background-01.png");
+  background-size: cover;
+  padding: 4em;
+  text-decoration: none;
+}
+
+.soc-linkdn, .soc-facebook, .soc-google {
+  display: block;
+  background-image: url(../assets/asset2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+}
+
+.soc-facebook {
+    background-image: url(../assets/asset1.png);
+}
+
+.soc-google {
+    background-image: url(../assets/asset3.png);
+}
+
+.social {
+    font-size: 1.2rem;
+    color: #6a1d15;
+
+}
+.soc {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 1em;
+}
+
+.soc li {
+    height: 3em;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.outro {
+  color: white;
+  background-color: rgba(235, 235, 235, .40);
+}
+
+a:hover {
+  color: #8f7d8d;
+}
+
+.logo {
+  width: 4.5em;
+  position: relative;
+  float: left;
+  padding-left: 2em;
+  padding-top:  0;
+  fill: rgb(230,230,230);
+}
+
+.logo:hover {
+  fill: white;
+}
+
+.arrow-1 {
+  position: absolute;
+  left: .5em;
+  width: 5%;
+  max-width: 5em;
+  top: 40%;
+ }
+
+.arrow-2 {
+  position: absolute;
+  width: 5%;
+  max-width: 5em;
+  top: 40%;
+  right: .5em;
+  }
+
+.portfoliomain {
+  width: 100%;
+}
+
+.imgh1 {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+.pic {
+  width: 100%;
+  margin: 0;
+}
+}
